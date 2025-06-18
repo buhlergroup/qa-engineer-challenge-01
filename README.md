@@ -68,6 +68,7 @@ To build the application, you need to have Node.js and npm installed. Follow the
    docker compose up
    # or if you are using Podman
    podman compose up
+   # Apllication will be available at `http://localhost:3000`.
 
 ## Challenge
 ### Description
@@ -75,6 +76,7 @@ Our company released the first version of the application to production as quick
 
 ### Requirements
 - The most important features to be tested are identified
-- Playwright is used as the testing framework and is configured to run tests
+- Playwright is used as the testing framework
+- Playwright is configured to run tests
 - Playwright tests are written in JavaScript or TypeScript
 - At least 2 tests are written
