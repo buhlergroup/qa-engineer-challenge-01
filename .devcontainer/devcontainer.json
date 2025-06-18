@@ -1,7 +1,9 @@
 {
   "name": "Node.js & TypeScript Dev Container",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
-  "features": {},
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
