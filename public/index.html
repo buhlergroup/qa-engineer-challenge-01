@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple ToDo</title>
+</head>
+<body>
+    <h1>ToDo's</h1>
+
+    <form id="form" onsubmit="create(this.input.value)">
+        <label for="input"></label>
+        <input id="input" placeholder="Entry" required>
+        <button>Add</button>
+    </form>
+
+    <ul id="list"></ul>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
