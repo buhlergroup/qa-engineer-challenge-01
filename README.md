@@ -1,6 +1,19 @@
 # Quality Assurance (QA) Engineer Challenge
 
-## Inhaltsverzeichnis
+## Table of contents
+- [Application](#application)
+   - [Create a todo](#create-a-todo)
+   - [Mark a todo as done](#mark-a-todo-as-done)
+   - [Delete a todo](#delete-a-todo)
+- [Building and Starting the Application](#building-and-starting-the-application)
+   - [Using Github Codespaces (Recommended / Preferred)](#using-github-codespaces-recommended--preferred)
+   - [Using Node.js and npm](#using-nodejs-and-npm)
+   - [Using Docker or Podman with Docker / Podman Compose](#using-docker-or-podman-with-docker--podman-compose)
+- [Challenge](#challenge)
+   - [Description](#description)
+   - [Task](#task)
+   - [Requirements](#requirements)
+   - [General Conditions](#general-conditions)
 
 ## Application
 ![application.png](application.png)
