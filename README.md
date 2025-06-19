@@ -1,5 +1,7 @@
 # Quality Assurance (QA) Engineer Challenge
 
+## Inhaltsverzeichnis
+
 ## Application
 ![application.png](application.png)
 
@@ -18,7 +20,7 @@
 - The todo will be removed from the list.
 
 ## Building and Starting the Application
-### Possibility 1: Using Github Codespaces
+### Using Github Codespaces (Recommended / Preferred)
 1. Open the repository in [GitHub](https://github.com/buhlergroup/qa-engineer-challenge-01)
 2. Click on the "Code" button and select "Open with Codespaces".
 3. Create a new codespace.
@@ -35,7 +37,7 @@
    npm start
    # Apllication will be available at `http://localhost:3000`.
 
-### Possibility 2: Using Node.js and npm
+### Using Node.js and npm
 To build the application, you need to have Node.js and npm installed. Follow these steps:
 1. Make sure you have Node.js and npm installed on your machine. You can download them from [Node.js official website](https://nodejs.org/).
 2. Clone the repository:
@@ -55,7 +57,7 @@ To build the application, you need to have Node.js and npm installed. Follow the
    npm start
    # Apllication will be available at `http://localhost:3000`.
    
-### Possibility 3: Using Docker or Podman with Docker / Podman Compose
+### Using Docker or Podman with Docker / Podman Compose
 1. Make sure you have Docker installed on your machine.
 2. Clone the repository:
    ```bash
@@ -72,11 +74,22 @@ To build the application, you need to have Node.js and npm installed. Follow the
 
 ## Challenge
 ### Description
-Our company released the first version of the application to production as quickly as possible. There are currently no automated tests. Your task as a QA Engineer is to ensure the quality of the application and establish a solid testing foundation.
+It is important to bring software to market quickly in order to secure competitive advantages and respond to customer needs at an early stage. By launching early, companies can gather feedback from real users, steer product development in a targeted manner, and implement innovations faster. An early release also makes it possible to gain market share and react flexibly to changes in the market environment. Fast releases also promote continuous improvement and help minimize risks by identifying problems early.
+
+However, it is also important to ensure that the software is of high quality and meets the requirements of the users. This is where quality assurance (QA) comes into play. 
+This point was not sufficiently considered in the development of the application. The application is not tested and therefore has no quality assurance.
+
+### Task
+Your task is to implement a quality assurance (QA) solution for the application. The goal is to ensure that the most important features of the application are tested and that the application is of high quality.
 
 ### Requirements
 - The most important features to be tested are identified
-- Playwright is used as the testing framework
-- Playwright is configured to run tests
-- Playwright tests are written in JavaScript or TypeScript
+- Cypress or Playwright is used as the testing framework
+- Cypress or Playwright is configured to run tests
+- Tests are written in JavaScript or TypeScript
 - At least 2 tests are written
+
+### General Conditions
+- Maximum of **45 minutes** for the task
+- The task should be completed in the browser using **GitHub Codespaces**
+- **Googling** and **Copilot** is allowed
