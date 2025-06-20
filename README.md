@@ -2,89 +2,92 @@
 
 ## Table of contents
 - [Application](#application)
-   - [Create a todo](#create-a-todo)
-   - [Mark a todo as done](#mark-a-todo-as-done)
-   - [Delete a todo](#delete-a-todo)
-- [Building and Starting the Application](#building-and-starting-the-application)
-   - [Using Github Codespaces (Recommended / Preferred)](#using-github-codespaces-recommended--preferred)
-   - [Using Node.js and npm](#using-nodejs-and-npm)
-   - [Using Docker or Podman with Docker / Podman Compose](#using-docker-or-podman-with-docker--podman-compose)
+    - [Create a todo](#create-a-todo)
+    - [Mark a todo as done](#mark-a-todo-as-done)
+    - [Delete a todo](#delete-a-todo)
+- [Development Environment](#development-environment)
+    - [Using Github Codespaces (Recommended / Preferred)](#using-github-codespaces-recommended--preferred)
+    - [Using Integrated Development Environment (IDE)](#using-integrated-development-environment-ide)
 - [Challenge](#challenge)
-   - [Description](#description)
-   - [Task](#task)
-   - [Requirements](#requirements)
-   - [General Conditions](#general-conditions)
+    - [Description](#description)
+    - [Task](#task)
+    - [Requirements](#requirements)
+    - [General Conditions](#general-conditions)
 
 ## Application
 ![application.png](application.png)
 
 ### Create a todo
-- Click on the "Add" button. 
-- The input field will be cleared and ready for a new todo.
-- The new todo will be added to the list.
+- Write a todo in the input field
+- Click on the "Add" button
+- The input field will be cleared and ready for a new todo
+- The new todo will be added to the list
 
 ### Mark a todo as done
-- Click on the todo you want to mark as done.
-- The todo will be shown as done.
-- Click on the todo again to mark it as not done.
+- Click on the todo you want to mark as done
+- The todo will be shown as done
+- Click on the todo again to mark it as not done
 
 ### Delete a todo
-- Click on the "Delete" button next to the todo you want to delete.
-- The todo will be removed from the list.
+- Click on the "Remove" button next to the todo you want to delete
+- The todo will be removed from the list
 
-## Building and Starting the Application
+## Development Environment
 ### Using Github Codespaces (Recommended / Preferred)
 1. Open the repository in [GitHub](https://github.com/buhlergroup/qa-engineer-challenge-01)
-2. Click on the "Code" button and select "Open with Codespaces".
-3. Create a new codespace.
-4. Wait for the codespace to be created and the environment to be set up.
-5. Once the codespace is ready, you can start working on the application directly in the browser.
-6. Install the dependencies:
-   ```bash
-   npm install
-7. Build the application:
-   ```bash
-   npm run build
-8. Start the application:
-   ```bash
-   npm start
-   # Apllication will be available at `http://localhost:3000`.
+2. Click on the "Code" button and select "Open with Codespaces"
+3. Create a new codespace
+4. Wait for the codespace to be created and the environment to be set up
+5. Once the codespace is ready, you can start working on the application directly in the browser
+6. Build and run the application:
+   - Option 1: Build and run the application using the terminal:
+     ```bash
+     # Install dependencies
+     npm install
+     # Build the application
+     npm run build
+     # Start the application
+     npm start
+     # Apllication will be available at `http://localhost:3000`
+     ```
+   - Option 2: Build and run the application using Docker Compose or Podman Compose:
+     ```bash
+     # Start the application using Docker Compose
+     docker compose up
+     # Start the application using Podman Compose
+     podman compose up
+     # Apllication will be available at `http://localhost:3000`
+     ```
 
-### Using Node.js and npm
-To build the application, you need to have Node.js and npm installed. Follow these steps:
-1. Make sure you have Node.js and npm installed on your machine. You can download them from [Node.js official website](https://nodejs.org/).
-2. Clone the repository:
+### Using Integrated Development Environment (IDE)
+There are several options to run the application locally on your machine. You can use either Node.js and npm, or Docker / Podman with Docker Compose or Podman Compose.
+Be sure to have the required tools installed on your machine.
+1. Clone the repository:
    ```bash
    git clone https://github.com/buhlergroup/qa-engineer-challenge-01.git
-3. Navigate to the project directory:
+2. Navigate to the project directory:
    ```bash
    cd qa-engineer-challenge-01
-4. Install the dependencies:
-   ```bash
-   npm install
-5. Build the application:
-   ```bash
-   npm run build
-6. Start the application:
-   ```bash
-   npm start
-   # Apllication will be available at `http://localhost:3000`.
-   
-### Using Docker or Podman with Docker / Podman Compose
-1. Make sure you have Docker installed on your machine.
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/buhlergroup/qa-engineer-challenge-01.git
-3. Navigate to the project directory:
-   ```bash
-   cd qa-engineer-challenge-01
-4. Build the Docker image:
-   ```bash
-   docker compose up
-   # or if you are using Podman
-   podman compose up
-   # Apllication will be available at `http://localhost:3000`.
-
+3. Build and run the application using the terminal:
+   - Option 1: Build and run the application using the terminal:
+     ```bash
+     # Install dependencies
+     npm install
+     # Build the application
+     npm run build
+     # Start the application
+     npm start
+     # Apllication will be available at `http://localhost:3000`
+     ```
+   - Option 2: Build and run the application using Docker Compose or Podman Compose:
+     ```bash
+     # Start the application using Docker Compose
+     docker compose up
+     # Start the application using Podman Compose
+     podman compose up
+     # Apllication will be available at `http://localhost:3000`
+     ```
+     
 ## Challenge
 ### Description
 It is important to bring software to market quickly in order to secure competitive advantages and respond to customer needs at an early stage. By launching early, companies can gather feedback from real users, steer product development in a targeted manner, and implement innovations faster. An early release also makes it possible to gain market share and react flexibly to changes in the market environment. Fast releases also promote continuous improvement and help minimize risks by identifying problems early.
