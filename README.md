@@ -28,13 +28,13 @@ Your task is to implement a quality assurance (QA) solution for the application.
 - The most important features to be tested are identified and communicated
 - Cypress or Playwright is used as the testing framework
 - Cypress or Playwright is configured to run tests
-- Tests are written in JavaScript or TypeScript
+- Tests are written in TypeScript
 - At least 2 tests are written
 
 ### General Conditions
 - Maximum of **45 minutes** for the task
 - The task should be completed in the browser using **GitHub Codespaces** or any **Integrated Development Environment (IDE)** of your choice
-- **Google** is allowed
+- **Playwright Documentation** is allowed (https://playwright.dev/docs/intro)
 
 ---
 
