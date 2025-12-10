@@ -26,14 +26,16 @@ Your task is to implement a quality assurance (QA) solution for the application.
 
 ### Requirements
 - The most important features to be tested are identified and communicated
-- Cypress or Playwright is used as the testing framework
-- Cypress or Playwright is configured to run tests
+- Playwright is used as the testing framework
+- Playwright is configured to run tests
 - Tests are written in TypeScript
-- At least 2 tests are written
+- **Page Object Model** is implemented
+- All the 3 tests are covered
 
 ### General Conditions
 - Maximum of **45 minutes** for the task
 - The task should be completed in the browser using **GitHub Codespaces** or any **Integrated Development Environment (IDE)** of your choice
+- No AI or Google is allowed
 - **Playwright Documentation** is allowed (https://playwright.dev/docs/intro)
 
 ---
@@ -66,24 +68,24 @@ Your task is to implement a quality assurance (QA) solution for the application.
 4. Wait for the codespace to be created and the environment to be set up
 5. Once the codespace is ready, you can start working on the application directly in the browser
 6. Build and run the application:
-   - Option 1: Build and run the application using the terminal:
-     ```bash
-     # Install dependencies
-     npm install
-     # Build the application
-     npm run build
-     # Start the application
-     npm start
-     # Apllication will be available at `http://localhost:3000`
-     ```
-   - Option 2: Build and run the application using Docker Compose or Podman Compose:
-     ```bash
-     # Start the application using Docker Compose
-     docker compose up
-     # Start the application using Podman Compose
-     podman compose up
-     # Apllication will be available at `http://localhost:3000`
-     ```
+    - Option 1: Build and run the application using the terminal:
+      ```bash
+      # Install dependencies
+      npm install
+      # Build the application
+      npm run build
+      # Start the application
+      npm start
+      # Apllication will be available at `http://localhost:3000`
+      ```
+    - Option 2: Build and run the application using Docker Compose or Podman Compose:
+      ```bash
+      # Start the application using Docker Compose
+      docker compose up
+      # Start the application using Podman Compose
+      podman compose up
+      # Apllication will be available at `http://localhost:3000`
+      ```
 
 ### Option 2: Using Integrated Development Environment (IDE)
 There are several options to run the application locally on your machine. You can use either Node.js and npm, or Docker / Podman with Docker Compose or Podman Compose.
@@ -95,21 +97,21 @@ Be sure to have the required tools installed on your machine.
    ```bash
    cd qa-engineer-challenge-01
 3. Build and run the application using the terminal:
-   - Option 1: Build and run the application using the terminal:
-     ```bash
-     # Install dependencies
-     npm install
-     # Build the application
-     npm run build
-     # Start the application
-     npm start
-     # Apllication will be available at `http://localhost:3000`
-     ```
-   - Option 2: Build and run the application using Docker Compose or Podman Compose:
-     ```bash
-     # Start the application using Docker Compose
-     docker compose up
-     # Start the application using Podman Compose
-     podman compose up
-     # Apllication will be available at `http://localhost:3000`
-     ```
+    - Option 1: Build and run the application using the terminal:
+      ```bash
+      # Install dependencies
+      npm install
+      # Build the application
+      npm run build
+      # Start the application
+      npm start
+      # Apllication will be available at `http://localhost:3000`
+      ```
+    - Option 2: Build and run the application using Docker Compose or Podman Compose:
+      ```bash
+      # Start the application using Docker Compose
+      docker compose up
+      # Start the application using Podman Compose
+      podman compose up
+      # Apllication will be available at `http://localhost:3000`
+      ```
