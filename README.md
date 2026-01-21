@@ -72,14 +72,20 @@ Your task is to implement a quality assurance (QA) solution for the application.
 
 ## Development Environment
 
-### Option 1: Using Github Codespaces (Recommended / Preferred)
+### Option 1: Using Integrated Development Environment (IDE) - <u>Recommended / Preferred</u>
 
-1. Open the repository in [GitHub](https://github.com/buhlergroup/qa-engineer-challenge-01)
-2. Click on the "Code" button and select "Open with Codespaces"
-3. Create a new codespace
-4. Wait for the codespace to be created and the environment to be set up
-5. Once the codespace is ready, you can start working on the application directly in the browser
-6. Build and run the application:
+There are several options to run the application locally on your machine. You can use either Node.js and npm, or Docker / Podman with Docker Compose or Podman Compose.
+Be sure to have the required tools installed on your machine.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/buhlergroup/qa-engineer-challenge-01.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd qa-engineer-challenge-01
+   ```
+3. Build and run the application using the terminal:
    - Option 1: Build and run the application using the terminal:
      ```bash
      # Install dependencies
@@ -99,20 +105,14 @@ Your task is to implement a quality assurance (QA) solution for the application.
      # Apllication will be available at `http://localhost:3000`
      ```
 
-### Option 2: Using Integrated Development Environment (IDE)
+### Option 2: Using Github Codespaces
 
-There are several options to run the application locally on your machine. You can use either Node.js and npm, or Docker / Podman with Docker Compose or Podman Compose.
-Be sure to have the required tools installed on your machine.
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/buhlergroup/qa-engineer-challenge-01.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd qa-engineer-challenge-01
-   ```
-3. Build and run the application using the terminal:
+1. Open the repository in [GitHub](https://github.com/buhlergroup/qa-engineer-challenge-01)
+2. Click on the "Code" button and select "Open with Codespaces"
+3. Create a new codespace
+4. Wait for the codespace to be created and the environment to be set up
+5. Once the codespace is ready, you can start working on the application directly in the browser
+6. Build and run the application:
    - Option 1: Build and run the application using the terminal:
      ```bash
      # Install dependencies
