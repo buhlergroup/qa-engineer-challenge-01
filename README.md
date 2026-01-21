@@ -31,6 +31,7 @@ Your task is to implement a quality assurance (QA) solution for the application.
 ### Requirements
 
 - The most important features to be tested are identified and communicated
+- The web application must be run locally
 - Playwright is used as the testing framework
 - Playwright is configured to run tests
 - Tests are written in TypeScript
