@@ -72,7 +72,7 @@ Your task is to implement a quality assurance (QA) solution for the application.
 
 ## Development Environment
 
-### Option 1: Using Integrated Development Environment (IDE) - <u>Recommended / Preferred</u>
+### Option 1: Using Integrated Development Environment (IDE) - <ins> Recommended / Preferred </ins>
 
 There are several options to run the application locally on your machine. You can use either Node.js and npm, or Docker / Podman with Docker Compose or Podman Compose.
 Be sure to have the required tools installed on your machine.
