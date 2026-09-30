@@ -12,8 +12,8 @@
   - [Mark a todo as done](#mark-a-todo-as-done)
   - [Delete a todo](#delete-a-todo)
 - [Development Environment](#development-environment)
-  - [Option 1: Using Github Codespaces (Recommended / Preferred)](#option-1-using-github-codespaces-recommended--preferred)
-  - [Option 2: Using Integrated Development Environment (IDE)](#option-2-using-integrated-development-environment-ide)
+  - [Option 1: Using an Integrated Development Environment (IDE) (Recommended / Preferred)](#option-1-using-an-integrated-development-environment-ide-recommended--preferred)
+  - [Option 2: Using GitHub Codespaces](#option-2-using-github-codespaces)
 
 ## Challenge
 
@@ -32,18 +32,18 @@ Your task is to implement a quality assurance (QA) solution for the application.
 
 - The most important features to be tested are identified and communicated
 - The web application must be run locally
-- Playwright is used as the testing framework
-- Playwright is configured to run tests
-- Tests are written in TypeScript
+- Playwright for .NET is used as the testing framework
+- Playwright for .NET is configured to run tests
+- Tests are written in C#
 - **Page Object Model** is implemented
 - All the 3 tests are covered
 
 ### General Conditions
 
 - Maximum of **45 minutes** for the task
-- The task should be completed in the browser using **GitHub Codespaces** or any **Integrated Development Environment (IDE)** of your choice
+- The task should be completed using an **Integrated Development Environment (IDE)** of your choice (recommended / preferred); **GitHub Codespaces** is an alternative
 - No AI or Google is allowed
-- **Playwright Documentation** is allowed (https://playwright.dev/docs/intro)
+- **Playwright for .NET Documentation** is allowed (https://playwright.dev/dotnet/docs/intro)
 
 ---
 
@@ -73,7 +73,7 @@ Your task is to implement a quality assurance (QA) solution for the application.
 
 ## Development Environment
 
-### Option 1: Using Integrated Development Environment (IDE) - <ins> Recommended / Preferred </ins>
+### Option 1: Using an Integrated Development Environment (IDE) (Recommended / Preferred)
 
 There are several options to run the application locally on your machine. You can use either Node.js and npm, or Docker / Podman with Docker Compose or Podman Compose.
 Be sure to have the required tools installed on your machine.
@@ -106,7 +106,7 @@ Be sure to have the required tools installed on your machine.
      # Apllication will be available at `http://localhost:3000`
      ```
 
-### Option 2: Using Github Codespaces
+### Option 2: Using GitHub Codespaces
 
 1. Open the repository in [GitHub](https://github.com/buhlergroup/qa-engineer-challenge-01)
 2. Click on the "Code" button and select "Open with Codespaces"
